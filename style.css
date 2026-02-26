@@ -222,6 +222,39 @@ body {
   font-weight: 600;
 }
 
+/* 服务地区 */
+.area {
+  background-color: var(--white);
+}
+
+.area-intro {
+  text-align: center;
+  color: var(--grey-mid);
+  margin-top: -20px;
+  margin-bottom: 28px;
+  font-size: 0.95rem;
+}
+
+.area-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.area-item {
+  background-color: var(--grey-light);
+  border: 1px solid #e0e0e0;
+  border-left: 4px solid var(--yellow);
+  padding: 10px 24px;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: var(--grey);
+  font-weight: 600;
+}
+
 /* 业务范围 */
 .services {
   background-color: var(--white);
